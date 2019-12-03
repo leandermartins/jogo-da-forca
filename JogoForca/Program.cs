@@ -93,7 +93,7 @@ namespace JogoForca
                     Console.WriteLine("PARABÉNS, VOCÊ GANHOU! Pois conseguiu descobrir a palavra {0}.", palavraSorteada.ToUpper());
                     sairJogo = true;
                 }
-            }          
+            }  //Comando para congelar a tela até o usuário apertar quarquer tecla        
             Console.ReadKey();
         }
     }
